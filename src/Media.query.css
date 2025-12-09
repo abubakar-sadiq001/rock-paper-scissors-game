@@ -1,0 +1,289 @@
+/* @media 1 */
+@media (max-width: 530px) {
+  nav {
+    padding: 1rem 1.2rem;
+  }
+  .logo {
+    width: 100%;
+    max-width: 100px;
+  }
+  .scoreWrapper {
+    padding: 0.2rem 2.5rem;
+  }
+  .scoreWrapper .score {
+    font-size: 3rem;
+  }
+  .pentagon-shape {
+    width: 100%;
+    max-width: 290px;
+    height: 320px;
+  }
+  /*  */
+  .logoWrapper {
+    box-shadow: 0px 5px 0px rgb(208, 104, 7);
+    padding: 15px;
+    top: -60px;
+    right: 90px;
+    max-width: 90px;
+  }
+  .icon-scissors {
+    box-shadow: 0px -5px 1px hsl(217, 69%, 90%);
+    padding: 15px 23px;
+    width: 40px;
+  }
+  /* Spock-wrapper */
+  .spockWrapper {
+    box-shadow: 0px 5px 0px rgb(39, 149, 177);
+    padding: 15px 18px;
+    top: 60px;
+    left: -45px;
+    max-width: 90px;
+  }
+  .icon-spock {
+    box-shadow: 0px -5px 1px hsl(217, 69%, 90%);
+    padding: 15px 25px;
+    width: 40px;
+  }
+  /* paper wrapper */
+  .paperWrapper {
+    box-shadow: 0px 5px 0px rgb(67, 67, 202);
+    padding: 16px 20px;
+    top: 60px;
+    right: -45px;
+    max-width: 90px;
+  }
+  .icon-paper {
+    box-shadow: 0px -5px 1px hsl(217, 69%, 90%);
+    padding: 18px 28px;
+    width: 40px;
+  }
+  /* lizardWrapper wrapper */
+  .lizardWrapper {
+    box-shadow: 0px 5px 0px hsl(261, 56%, 44%);
+    padding: 17px 18px;
+    bottom: -25px;
+    max-width: 90px;
+  }
+  .icon-lizard {
+    box-shadow: 0px -5px 1px hsl(217, 69%, 90%);
+    padding: 20px 25px;
+    width: 40px;
+  }
+  /* rockWrapper wrapper */
+  .rockWrapper {
+    box-shadow: 0px 5px 0px rgb(145, 39, 39);
+    padding: 7px 19px;
+    bottom: -25px;
+    right: 0;
+    max-width: 90px;
+  }
+  .icon-rock {
+    box-shadow: 0px -5px 1px hsl(217, 69%, 90%);
+    padding: 25px 27px;
+    width: 40px;
+  }
+  /*  */
+}
+/* @media 2` */
+@media (max-width: 823px) {
+  .wrapper .globalCover {
+    padding: 20px;
+  }
+  .wrapper .global {
+    width: 60px;
+    height: 60px;
+    background: fuchsia;
+    border-radius: 50%;
+    box-shadow: 0px -6px 0px red;
+    padding: 15px 25px;
+    box-shadow: 0px;
+  }
+  /* Status */
+  .status {
+    font-size: 2rem;
+  }
+  /* Re-Start Play Btn */
+  .playAgainButton {
+    padding: 15px 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  /* rules-Btn-Wrapper */
+  .rulesBtnWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 13%;
+  }
+}
+/* @media 3 */
+@media (max-width: 611px) {
+  body {
+    overflow: hidden;
+  }
+  nav {
+    padding: 0.6rem 0.8rem;
+  }
+  .logo {
+    width: 80px;
+  }
+  .scoreWrapper {
+    padding: 0.1rem 2rem;
+  }
+  .scoreWrapper .score {
+    font-size: 3rem;
+  }
+  .wrapper {
+    color: #fff;
+    width: 100%;
+    max-width: 1100px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    flex-flow: wrap;
+  }
+  .wrapper p {
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: -70px;
+    text-align: center;
+  }
+  .middle-wrapper {
+    position: absolute;
+    bottom: -200px;
+  }
+  .rulesBtn {
+    margin-top: 150px;
+  }
+}
+/* @media 3 */
+@media (max-width: 434px) {
+  .wrapper {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  .wrapper .globalCover {
+    padding: 18px;
+  }
+  .wrapper .global {
+    width: 40px;
+    height: 50px;
+    background: fuchsia;
+    border-radius: 50%;
+    box-shadow: 0px -6px 0px red;
+    padding: 14px 20px;
+    box-shadow: 0px;
+  }
+}
+/* @media 4 */
+@media (max-width: 439px) {
+  .wrapper p {
+    margin-left: 2px;
+    font-size: 13px;
+  }
+  /* Status */
+  .status {
+    font-size: 2.8rem;
+  }
+  /* Re-Start Play Btn */
+  .playAgainButton {
+    padding: 16px 27px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .middle-wrapper {
+    bottom: -230px;
+  }
+  /* Body */
+  body {
+    padding: 0px 20px;
+  }
+}
+/* @media 5 */
+@media (max-width: 399px) {
+  .pentagon-shape {
+    width: 100%;
+    max-width: 270px;
+    height: 280px;
+  }
+  /*  */
+  .logoWrapper {
+    box-shadow: 0px 5px 0px rgb(208, 104, 7);
+    padding: 11px;
+    top: -60px;
+    right: 80px;
+    max-width: 90px;
+  }
+  .icon-scissors {
+    box-shadow: 0px -5px 1px hsl(217, 69%, 90%);
+    padding: 15px 23px;
+    width: 35px;
+  }
+  /* Spock-wrapper */
+  .spockWrapper {
+    box-shadow: 0px 5px 0px rgb(39, 149, 177);
+    padding: 12px 9px;
+    top: 50px;
+    left: -30px;
+    max-width: 90px;
+  }
+  .icon-spock {
+    box-shadow: 0px -5px 1px hsl(217, 69%, 90%);
+    padding: 12px 22px;
+    width: 35px;
+  }
+  /* paper wrapper */
+  .paperWrapper {
+    box-shadow: 0px 5px 0px rgb(67, 67, 202);
+    padding: 13px 10px;
+    top: 50px;
+    right: -25px;
+    max-width: 90px;
+  }
+  .icon-paper {
+    box-shadow: 0px -5px 1px hsl(217, 69%, 90%);
+    padding: 14px 22px;
+    width: 35px;
+  }
+  /* lizardWrapper wrapper */
+  .lizardWrapper {
+    box-shadow: 0px 5px 0px hsl(261, 56%, 44%);
+    padding: 13px 14px;
+    bottom: -25px;
+    max-width: 90px;
+  }
+  .icon-lizard {
+    box-shadow: 0px -5px 1px hsl(217, 69%, 90%);
+    padding: 17px 22px;
+    width: 45px;
+  }
+  /* rockWrapper wrapper */
+  .rockWrapper {
+    box-shadow: 0px 5px 0px rgb(145, 39, 39);
+    padding: 0px 13px;
+    bottom: -25px;
+    right: 0;
+    max-width: 90px;
+  }
+  .icon-rock {
+    box-shadow: 0px -5px 1px hsl(217, 69%, 90%);
+    padding: 20px 25px;
+    width: 35px;
+  }
+  /*  */
+}
+/* @media 6 */
+@media (max-width: 612px) {
+  .rulesWrapper {
+    height: 300px;
+    border-radius: 8px;
+    padding: 20px 30px 45px 30px;
+  }
+  .rulesWrapper .ruleImg {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 10px;
+  }
+}
